@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #959595;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---------- HEADER ---------- */
+    .head{
+        padding: 1%;
+        background-color: #454545;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #logo{
+        width: 200px;
+        height: 200px;
+    }
+
+    #name{
+        font-size: 1000%;
+        font-weight: 40%;
+        color: #efefef;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    header #redes a{
+        display: flex;
+        margin: 10%;
+    }
+/* ---------------------------------------- */
+
+/* ---------- BARRA DE NAVEGACION ---------- */
+    nav{
+        background-color: #3e7e72;
+        display: inline-flexbox;
+        text-align: center;
+    }
+
+    ul li{
+        padding: 0.5%;
+        margin: 0.5%;
+        display: inline-block;
+        justify-content: center;
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Blogger Sans';
+        font-size: 23px;
+    }
+
+    nav ul li:hover{
+        border-radius: 1em;
+        background-color: #454545;
+    }
+/* ---------------------------------------- */
+
+/* ---------- CONTAINER ---------- */  
+    .container{
+        margin: 2%;
+        background-color: #75BEAF;
+        border-radius: 1em;
+        display: flex;
+        justify-content: space-between;
+        text-align: justify;
+    }
+
+    .container img{
+        margin: 2%;
+        width: 400px;
+        height: 400px;
+        border-radius: 1em;
+    }
+
+    .container .infoDestacada{
+        margin: 2%;
+        padding: auto;
+        background-color: #3e7e72;
+        border-radius: 1em;
+        font-family: 'Quicksand';
+        font-size: large;
+        text-align: center;
+    }
+
+    .container .infoDestacada h1{
+        color: #efefef;
+    }
+
+    .container .infoDestacada p{
+        margin: 4%;
+    }
+
+    /* ---------- BUTTON ---------- */
+        .container button{
+            padding: 1%;
+            border-radius: 1em;
+            background-color: rgb(0, 143, 168);
+        }
+    /* ---------------------------------------- */
+/* ---------------------------------------- */

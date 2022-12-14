@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/acount.css">
+        <script src="../js/jquery-3.6.1.min.js"></script>
+        <script src="../js/jquery.validate.min.js"></script>
+        <script src="../js/sweetalert2.all.min.js"></script>
+        <script src="../js/scripts.js"></script>
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="cuenta">
+            <form action="" method="post" id="form">
+                <h1>Inicio de sesion</h1>
+                <div>
+                    <label for="nombre">Documento:</label>
+                    <input type="text" placeholder="Digite su documento" id="document">
+    
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" placeholder="Digite su contraseña" id="password">
+                </div>
+                <div class="remenber">
+                    <input type="checkbox" placeholder="Recordar mi sesion">
+                    <label for="text" class="remenber">Recordar mi sesion</label>
+                </div>
+                <div>
+                    <button type="button" onclick="enviar()">Enviar</button>
+                </div>
+                <div class="redirection">
+                    <a href="register.html">Registrarse</a>
+                    <a href="../index.html">Volver al inicio</a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
